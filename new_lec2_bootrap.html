@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            color: #312e2eaa;
+        }
+
+        h1:hover{
+            color: rgb(144, 211, 211);
+            background-color: rgb(41, 53, 63);
+        }
+
+/* Target the body */
+        body {
+            font-family: "Bitcount Single";
+        }
+        
+/* ok now we target the class for each of the p in this case, 
+because the all 4 have a specific locations we want to modify */
+        .benefit-heading-text {
+            margin-top: 40px;
+            text-transform: uppercase;
+            
+        }
+        .benefit-sub-text{
+            margin-bottom: 50px;
+        }
+        i:hover{
+            font-size: 100px;
+            background-color: rgb(105, 72, 48);
+            
+        }
+
+        i {
+            border: 1px solid #AAAA ;
+
+            border-radius: 50px;
+
+            background-color: #AAAA;
+
+            padding: 1px;
+            font-size: 40px;
+        }
+
+
+
+        span {
+            text-decoration: line-through;
+        }
+
+        ul{
+            border: 5px solid rgb(41, 53, 63);
+            padding-left: 0px;
+            margin-bottom: 40px;
+
+            /* Flex box */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        li{
+            list-style-type: none;
+            border: 1px dotted rgb(41, 53, 63);
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <h1>Altitude Sports Memebership Benefits</h1>
+
+    <ul>
+        <li><a href="#">New Product</a></li>
+        <li><a href="#">New Product</a></li>
+        <li><a href="#">New Product</a></li>
+        <li><a href="#">New Product</a></li>
+        <li><a href="#">New Product</a></li>
+    </ul>
+    <i class="bi bi-truck"></i>
+    <p class="benefit-heading-text">Free Delivery</p>
+    <!-- target wiht span -->
+    <p class="benefit-sub-text">Over $74 <span>or Under $10</span></p>
+
+
+</body>
+</html>
